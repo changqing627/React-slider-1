@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.banner {
+    width: 800px;
+    height: 400px;
+    margin: 100px auto;
+    border: 2px solid #ccc;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.bannerInner {
+    width: 4000px;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.bannerInner>div {
+    width: 800px;
+    height: 400px;
+    float: left;
+}
+
+.bannerInner img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    vertical-align: top;
+}
+
+.arrow {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    top: 50%;
+    margin-top: -25px;
+    background: url("images/bg.png") no-repeat left top;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.arrow-left {
+    left: 0;
+
+}
+
+.arrow-right {
+    right: 0;
+    background-position: -48px 0;
+
+}
+
+.focusList {
+    z-index: 10;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+
+.focusList li {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #c0c0c0;
+    margin: 2px 5px;
+    float: left;
+}
+
+.focusList li.selected {
+    background: darkred;
+}
+
+
+

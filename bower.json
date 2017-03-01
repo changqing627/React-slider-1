@@ -1,0 +1,22 @@
+{
+  "name": "slider",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "leichao998877 <2748272597@qq.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.4.2",
+    "bowser": "browser#^1.6.0",
+    "babel": "^5.8.38"
+  }
+}
