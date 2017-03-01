@@ -12,6 +12,7 @@
   "dependencies": {
     "babel": "^6.23.0",
     "browser": "^0.2.6",
-    "react": "^15.4.2"
+    "react": "^15.4.2",
+     "jquery": "^3.1.1"
   }
 }
